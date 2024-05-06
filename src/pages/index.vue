@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { MaisonRecord } from '@/types';
 const maisonsListe: MaisonRecord[] = [
     {
     "adresse": "10 Avenue de la Plage , Avignon 84000",
