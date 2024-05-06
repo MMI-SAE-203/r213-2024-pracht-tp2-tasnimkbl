@@ -1,6 +1,20 @@
 <script setup lang="ts">
-const maisonsList = [
-  {
+const maisonsListe: {
+    adresse: string;
+    collectionId: string;
+    collectionName: string;
+    created: string;
+    favori: boolean;
+    id: string;
+    image: string;
+    nbChambres: number;
+    nbSdb: number;
+    nomMaison: string;
+    prix: number;
+    surface: number;
+    updated: string;
+}[] = [
+    {
     "adresse": "10 Avenue de la Plage , Avignon 84000",
     "collectionId": "iiey60bvm8pv197",
     "collectionName": "maison",
