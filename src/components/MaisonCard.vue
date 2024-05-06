@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import type { MaisonRecord } from '@/types'
+  import type { MaisonRecord } from '@/pocketbase-types'
   defineProps<MaisonRecord>()
   const props = defineProps<MaisonRecord>()
 
