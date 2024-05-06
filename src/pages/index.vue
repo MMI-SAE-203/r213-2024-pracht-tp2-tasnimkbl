@@ -83,7 +83,7 @@ const maisonsListe: MaisonRecord[] = [
 
 <template>
   <div>
-    <MaisonCard/>  
-  <h1 class="text-2xl">Bonjour monde !</h1>
+    <MaisonCard v-for="maison in maisonsListe" :key="maison.nom" v-bind="maison" />
+    <h1 class="text-2xl">Bonjour monde !</h1>
   </div>
 </template>
